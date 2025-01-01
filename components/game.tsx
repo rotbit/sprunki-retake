@@ -59,13 +59,19 @@ export function Game() {
           </div>
 
           <div className="game-controls">
-            <button onClick={toggleFullscreen} className="game-button">
+            <button
+              onClick={toggleFullscreen}
+              className="flex items-center gap-2 px-6 py-2 rounded-lg bg-[#5CD3D3] text-white hover:bg-[#4CC0C0] transition-colors"
+            >
               <Maximize className="h-4 w-4" />
               <span>
                 {isFullscreen ? t("game.exitFullscreen") : t("game.fullscreen")}
               </span>
             </button>
-            <button onClick={handleRestart} className="game-button">
+            <button
+              onClick={handleRestart}
+              className="flex items-center gap-2 px-6 py-2 rounded-lg bg-[#5CD3D3] text-white hover:bg-[#4CC0C0] transition-colors"
+            >
               <RefreshCw className="h-4 w-4" />
               <span>{t("game.restart")}</span>
             </button>

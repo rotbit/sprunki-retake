@@ -25,13 +25,13 @@ export function Navbar() {
         <nav className="flex flex-1 items-center justify-end space-x-6">
           <Link
             href="/blog"
-            className="text-sm font-medium transition-colors hover:text-primary"
+            className="text-sm font-medium px-6 py-2 rounded-lg bg-[#5CD3D3] text-white hover:bg-[#4CC0C0] transition-colors"
           >
             {t("nav.blog")}
           </Link>
           <Link
             href="/privacy"
-            className="text-sm font-medium transition-colors hover:text-primary"
+            className="text-sm font-medium px-6 py-2 rounded-lg bg-[#5CD3D3] text-white hover:bg-[#4CC0C0] transition-colors"
           >
             {t("nav.privacy")}
           </Link>
