@@ -14,10 +14,10 @@ export function Navbar() {
         <div className="mr-4 flex items-center space-x-2">
           <Link href="/" className="flex items-center space-x-2">
             <div className="relative">
-              <GamepadIcon className="h-8 w-8 text-primary" />
+              <GamepadIcon className="h-8 w-8 text-[#5CD3D3]" />
               <Sparkles className="absolute -top-1 -right-1 h-4 w-4 text-yellow-400" />
             </div>
-            <span className="hidden font-bold text-xl sm:inline-block">
+            <span className="hidden font-bold text-2xl sm:inline-block bg-gradient-to-r from-[#5CD3D3] to-[#4CC0C0] bg-clip-text text-transparent">
               Spurnki Retake
             </span>
           </Link>

@@ -10,6 +10,27 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
+export function GameGuide() {
+  const { t } = useLanguage();
+  const guideItems = t("game.content.guide") as string[];
+
+  return (
+    <div className="w-full bg-white/80 rounded-lg p-6">
+      <div className="flex items-center gap-2 mb-4">
+        <BookOpen className="h-5 w-5" />
+        <h2 className="text-lg font-medium text-gray-800">Game Guide</h2>
+      </div>
+      <ul className="space-y-3 list-disc list-inside text-gray-700">
+        {guideItems.map((item: string, index: number) => (
+          <li key={index} className="leading-relaxed">
+            {item}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
 export function Game() {
   const { t } = useLanguage();
   const [isFullscreen, setIsFullscreen] = useState(false);
@@ -83,26 +104,7 @@ export function Game() {
                 {t("game.content.description")}
               </h2>
             </div>
-
-            <Accordion type="single" collapsible className="w-full">
-              <AccordionItem value="guide" className="border-cyan-200">
-                <AccordionTrigger className="text-lg font-medium text-gray-800 hover:text-primary">
-                  <div className="flex items-center gap-2">
-                    <BookOpen className="h-5 w-5" />
-                    <span>Game Guide</span>
-                  </div>
-                </AccordionTrigger>
-                <AccordionContent className="bg-white/80 rounded-b-lg p-4">
-                  <ul className="space-y-3 list-disc list-inside text-gray-700">
-                    {guideItems.map((item: string, index: number) => (
-                      <li key={index} className="leading-relaxed">
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
+            <GameGuide />
           </div>
         </div>
       </div>
