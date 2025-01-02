@@ -14,6 +14,8 @@ export interface Translations {
   nav: {
     blog: string
     privacy: string
+    externalLinkTitle: string
+    externalLinkText: string
   }
   hero: {
     title: string

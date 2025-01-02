@@ -5,6 +5,8 @@ export const translations: TranslationDictionary = {
     nav: {
       blog: 'Blog',
       privacy: 'Privacy',
+      externalLinkTitle: 'Support',
+      externalLinkText: 'Game Dashers',
     },
     hero: {
       title: 'Welcome to Spurnki Retake',
@@ -62,6 +64,8 @@ export const translations: TranslationDictionary = {
     nav: {
       blog: '博客',
       privacy: '隐私政策',
+      externalLinkTitle: '支持',
+      externalLinkText: 'Game Dashers',
     },
     hero: {
       title: '欢迎来到 Spurnki Retake',
@@ -119,6 +123,8 @@ export const translations: TranslationDictionary = {
     nav: {
       blog: 'ブログ',
       privacy: 'プライバシー',
+      externalLinkTitle: 'サポート',
+      externalLinkText: 'Game Dashers',
     },
     hero: {
       title: 'Spurnki Retake へようこそ',
@@ -176,6 +182,8 @@ export const translations: TranslationDictionary = {
     nav: {
       blog: '블로그',
       privacy: '개인정보',
+      externalLinkTitle: '고객지원',
+      externalLinkText: 'Game Dashers',
     },
     hero: {
       title: 'Spurnki Retake에 오신 것을 환영합니다',
