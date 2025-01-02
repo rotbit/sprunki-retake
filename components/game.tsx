@@ -3,13 +3,6 @@
 import { useState, useRef } from "react";
 import { Maximize, RefreshCw, Gamepad2, BookOpen } from "lucide-react";
 import { useLanguage } from "@/lib/i18n/language-context";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
-
 export function GameGuide() {
   const { t } = useLanguage();
   const guideItems = t("game.content.guide") as string[];
