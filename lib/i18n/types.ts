@@ -1,6 +1,7 @@
 export type Language = 'en' | 'zh' | 'ja' | 'ko'
 
 export interface GameContent {
+  title: string
   description: string
   guide: string[]
 }

@@ -19,9 +19,9 @@ export function FAQ() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center space-y-4 text-center mb-12">
           <HelpCircle className="h-12 w-12 text-[#5CD3D3]" />
-          <h2 className="text-4xl font-normal tracking-normal sm:text-5xl text-gray-800">
+          <h1 className="text-4xl font-normal tracking-normal sm:text-5xl text-gray-800">
             {t("faq.title")}
-          </h2>
+          </h1>
         </div>
         <div className="mx-auto max-w-[800px]">
           <Accordion type="single" collapsible className="w-full space-y-4">

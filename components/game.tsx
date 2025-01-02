@@ -18,12 +18,14 @@ export function GameGuide() {
     <div className="w-full bg-white/80 rounded-lg p-6">
       <div className="flex items-center gap-2 mb-4">
         <BookOpen className="h-5 w-5" />
-        <h2 className="text-lg font-medium text-gray-800">Game Guide</h2>
+        <h1 className="text-lg font-medium text-gray-800">
+          Retake Sprunki Game Guide
+        </h1>
       </div>
       <ul className="space-y-3 list-disc list-inside text-gray-700">
         {guideItems.map((item: string, index: number) => (
           <li key={index} className="leading-relaxed">
-            {item}
+            <h2>{item}</h2>
           </li>
         ))}
       </ul>
@@ -100,7 +102,10 @@ export function Game() {
 
           <div className="w-full max-w-[900px] space-y-6 mt-8">
             <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-sm">
-              <h2 className="text-xl font-semibold text-gray-800 mb-4">
+              <h1 className="text-2xl font-semibold text-gray-800 mb-2">
+                {t("game.content.title")}
+              </h1>
+              <h2 className="text-xl text-gray-800 mb-4">
                 {t("game.content.description")}
               </h2>
             </div>

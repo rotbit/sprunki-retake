@@ -15,10 +15,10 @@ export function Hero() {
             <h1 className="text-4xl font-normal tracking-normal sm:text-5xl md:text-6xl lg:text-7xl/none text-gray-800">
               {t("hero.title")}
             </h1>
-            <p className="mx-auto max-w-[700px] text-xl text-gray-500 md:text-2xl font-normal">
+            <h2 className="mx-auto max-w-[700px] text-xl text-gray-500 md:text-2xl font-normal">
               {t("hero.subtitle")}
               <span className="inline-block animate-bounce ml-2">🎮</span>
-            </p>
+            </h2>
           </div>
           <Link
             href="#game"

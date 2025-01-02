@@ -18,7 +18,7 @@ export function Navbar() {
               <Sparkles className="absolute -top-1 -right-1 h-4 w-4 text-yellow-400" />
             </div>
             <span className="hidden font-bold text-2xl sm:inline-block bg-gradient-to-r from-[#5CD3D3] to-[#4CC0C0] bg-clip-text text-transparent">
-              Spurnki Retake
+              Retake Sprunki
             </span>
           </Link>
         </div>
