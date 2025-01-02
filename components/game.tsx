@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef } from "react";
-import { Maximize, RefreshCw, Gamepad2, BookOpen } from "lucide-react";
+import { Maximize, RefreshCw, BookOpen } from "lucide-react";
 import { useLanguage } from "@/lib/i18n/language-context";
 export function GameGuide() {
   const { t } = useLanguage();
@@ -30,7 +30,6 @@ export function Game() {
   const { t } = useLanguage();
   const [isFullscreen, setIsFullscreen] = useState(false);
   const gameContainerRef = useRef<HTMLDivElement>(null);
-  const guideItems = t("game.content.guide") as string[];
 
   const toggleFullscreen = async () => {
     if (!gameContainerRef.current) return;

@@ -1,9 +1,9 @@
-import { Shield } from 'lucide-react'
+import { Shield } from "lucide-react";
 
 export const metadata = {
-  title: 'Privacy Policy - Spurnki Retake',
-  description: 'Privacy policy and terms of service for Spurnki Retake',
-}
+  title: "Privacy Policy - Spurnki Retake",
+  description: "Privacy policy and terms of service for Spurnki Retake",
+};
 
 export default function PrivacyPage() {
   return (
@@ -14,7 +14,7 @@ export default function PrivacyPage() {
           Privacy Policy
         </h1>
         <p className="text-xl text-muted-foreground max-w-[600px]">
-          Your privacy is important to us. Here's how we protect your data.
+          Your privacy is important to us. Here&apos;s how we protect your data.
         </p>
       </div>
       <div className="prose dark:prose-invert mx-auto">
@@ -23,6 +23,5 @@ export default function PrivacyPage() {
         </div>
       </div>
     </div>
-  )
+  );
 }
-
