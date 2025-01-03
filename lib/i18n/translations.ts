@@ -42,7 +42,7 @@ export const translations: TranslationDictionary = {
         },
         {
           question: 'What are the features of Retake Sprunki?',
-          answer: 'Ghost Character Visual Effects: Retake Sprunki features dark and horrifying character designs that enhance the thriller experience.\n\nUnique Sound Combinations: Retake Sprunki offers spine-chilling sounds, with different sequences unlocking various sound combinations for a thrilling experience.\n\nUnique Horror Environment: Retake Sprunki creates a distinctive horror atmosphere through its dark visuals and suspenseful sounds.',
+          answer: 'Ghost Character Visual Effects: The game features dark and horrifying character designs that enhance the thriller experience.\n\nUnique Sound Combinations: The game offers spine-chilling sounds, with different sequences unlocking various sound combinations for a thrilling experience.\n\nUnique Horror Environment: This game creates a distinctive horror atmosphere through its dark visuals and suspenseful sounds.',
         },
       ],
     },
@@ -98,7 +98,7 @@ export const translations: TranslationDictionary = {
         },
         {
           question: 'Retake Sprunki有什么特点?',
-          answer: '幽灵角色视觉效果：Retake Sprunki的角色设计的阴暗恐怖，增加惊悚体验。\n\n独特的声音组合：Retake Sprunki声音惊悚恐怖，不同的序列会解锁不同的声音组合，给你带来惊悚的体验。\n\n独特的恐怖环境：Retake Sprunki阴暗的画面，惊悚的声音，会构造独特的恐怖效果。',
+          answer: '幽灵角色视觉效果：游戏的角色设计阴暗恐怖，增加惊悚体验。\n\n独特的声音组合：游戏提供令人毛骨悚然的声音，不同的序列会解锁不同的声音组合，带来惊悚的体验。\n\n独特的恐怖环境：这款游戏通过阴暗的画面和惊悚的声音，营造出独特的恐怖氛围。',
         },
       ],
     },
@@ -162,7 +162,7 @@ export const translations: TranslationDictionary = {
         },
         {
           question: 'Retake Sprunkiの特徴は？',
-          answer: 'ゴーストキャラクターのビジュアル効果：Retake Sprunkiのキャラクターデザインは暗く恐ろしく、スリリングな体験を強化します。\n\nユニークなサウンドコンビネーション：Retake Sprunkiは背筋が凍るようなサウンドを提供し、異なるシーケンスで様々なサウンドの組み合わせがアンロックされ、スリリングな体験をもたらします。\n\nユニークなホラー環境：Retake Sprunkiは暗いビジュアルとサスペンス溢れるサウンドを通じて、独特の恐怖的な雰囲気を作り出します。',
+          answer: 'ゴーストキャラクターのビジュアル効果：ゲームのキャラクターデザインは暗く恐ろしく、スリリングな体験を強化します。\n\nユニークなサウンドコンビネーション：ゲームは背筋が凍るようなサウンドを提供し、異なるシーケンスで様々なサウンドの組み合わせがアンロックされ、スリリングな体験をもたらします。\n\nユニークなホラー環境：このゲームは暗いビジュアルとサスペンス溢れるサウンドを通じて、独特の恐怖的な雰囲気を作り出します。',
         },
       ],
     },
@@ -226,7 +226,7 @@ export const translations: TranslationDictionary = {
         },
         {
           question: 'Retake Sprunki의 특징은 무엇인가요?',
-          answer: '유령 캐릭터 비주얼 효과: Retake Sprunki의 캐릭터 디자인은 어둡고 무서워 스릴 넘치는 경험을 제공합니다.\n\n독특한 사운드 조합: Retake Sprunki는 소름 돋는 사운드를 제공하며, 다양한 시퀀스로 서로 다른 사운드 조합을 해금하여 스릴 넘치는 경험을 선사합니다.\n\n독특한 공포 환경: Retake Sprunki는 어두운 비주얼과 서스펜스 넘치는 사운드를 통해 독특한 공포 분위기를 조성합니다.',
+          answer: '유령 캐릭터 비주얼 효과: 게임의 캐릭터 디자인은 어둡고 무서워 스릴 넘치는 경험을 제공합니다.\n\n독특한 사운드 조합: 게임은 소름 돋는 사운드를 제공하며, 다양한 시퀀스로 서로 다른 사운드 조합을 해금하여 스릴 넘치는 경험을 선사합니다.\n\n독특한 공포 환경: 이 게임은 어두운 비주얼과 서스펜스 넘치는 사운드를 통해 독특한 공포 분위기를 조성합니다.',
         },
       ],
     },
