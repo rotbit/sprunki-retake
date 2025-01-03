@@ -56,6 +56,55 @@ export const translations: TranslationDictionary = {
       ja: '日本語',
       ko: '한국어',
     },
+    features: {
+      title: 'Product Features',
+      subtitle: 'Explore our unique features and advantages',
+      items: [
+        {
+          title: 'AI Chat',
+          description: 'Using advanced AI technology to provide intelligent and natural conversation experience.',
+          icon: '🤖',
+          image: '/features/ai-chat.jpg',
+        },
+        {
+          title: 'Real-time Multiplayer',
+          description: 'Support multiple users online interaction, making remote collaboration simpler and more efficient.',
+          icon: '👥',
+          image: '/features/multiplayer.jpg',
+        },
+        {
+          title: 'Data Analytics',
+          description: 'Powerful data analysis features help you understand user behavior and make smarter decisions.',
+          icon: '📊',
+          image: '/features/analytics.jpg',
+        },
+      ],
+      learnMore: 'Learn More',
+    },
+    testimonials: {
+      title: "User Reviews",
+      subtitle: "What our users say about us",
+      items: [
+        {
+          content: "This product has truly transformed the way I work. Highly recommended!",
+          author: "John Doe",
+          title: "Company CEO",
+          image: "/avatars/user1.jpg",
+        },
+        {
+          content: "Great user experience, our team's efficiency has improved significantly.",
+          author: "Jane Smith",
+          title: "Product Manager",
+          image: "/avatars/user2.jpg",
+        },
+        {
+          content: "Clean interface, powerful features, perfect for our team.",
+          author: "Mike Johnson",
+          title: "Technical Director",
+          image: "/avatars/user3.jpg",
+        },
+      ],
+    },
   },
   zh: {
     nav: {
@@ -111,6 +160,55 @@ export const translations: TranslationDictionary = {
       zh: '中文',
       ja: '日本語',
       ko: '한국어',
+    },
+    features: {
+      title: '产品特色',
+      subtitle: '探索我们独特的功能与优势',
+      items: [
+        {
+          title: '智能AI对话',
+          description: '采用先进的人工智能技术，提供智能、自然的对话体验，让您的交互更加流畅。',
+          icon: '🤖',
+          image: '/features/ai-chat.jpg',
+        },
+        {
+          title: '实时多人互动',
+          description: '支持多人同时在线互动，让远程协作变得更加简单高效，突破地域限制。',
+          icon: '👥',
+          image: '/features/multiplayer.jpg',
+        },
+        {
+          title: '数据分析洞察',
+          description: '强大的数据分析功能，帮助您深入了解用户行为，做出更明智的决策。',
+          icon: '📊',
+          image: '/features/analytics.jpg',
+        },
+      ],
+      learnMore: '了解更多',
+    },
+    testimonials: {
+      title: "用户评价",
+      subtitle: "听听用户们怎么说",
+      items: [
+        {
+          content: "这个产品真的改变了我的工作方式，非常推荐！",
+          author: "张三",
+          title: "公司 CEO",
+          image: "/avatars/user1.jpg",
+        },
+        {
+          content: "使用体验非常好，团队效率提升了很多。",
+          author: "李四",
+          title: "产品经理",
+          image: "/avatars/user2.jpg",
+        },
+        {
+          content: "界面简洁，功能强大，很适合我们团队使用。",
+          author: "王五",
+          title: "技术总监",
+          image: "/avatars/user3.jpg",
+        },
+      ],
     },
   },
   ja: {
@@ -176,6 +274,55 @@ export const translations: TranslationDictionary = {
       ja: '日本語',
       ko: '한국어',
     },
+    features: {
+      title: '製品の特徴',
+      subtitle: 'ユニークな機能と利点をご覧ください',
+      items: [
+        {
+          title: 'AIチャット',
+          description: '最先端のAI技術を採用し、インテリジェントで自然な対話体験を提供します。よりスムーズなインタラクションを実現します。',
+          icon: '🤖',
+          image: '/features/ai-chat.jpg',
+        },
+        {
+          title: 'リアルタイムマルチプレイヤー',
+          description: '複数のユーザーが同時にオンラインで対話できるため、リモートコラボレーションがより簡単かつ効率的になります。',
+          icon: '👥',
+          image: '/features/multiplayer.jpg',
+        },
+        {
+          title: 'データ分析',
+          description: '強力なデータ分析機能により、ユーザーの行動をより深く理解し、より賢明な意思決定を行うことができます。',
+          icon: '📊',
+          image: '/features/analytics.jpg',
+        },
+      ],
+      learnMore: '詳細を見る',
+    },
+    testimonials: {
+      title: "ユーザーレビュー",
+      subtitle: "ユーザーの声をご紹介",
+      items: [
+        {
+          content: "この製品は私の仕事のやり方を本当に変えてくれました。強くお勧めします！",
+          author: "田中太郎",
+          title: "会社CEO",
+          image: "/avatars/user1.jpg",
+        },
+        {
+          content: "ユーザー体験が素晴らしく、チームの効率が大幅に向上しました。",
+          author: "佐藤花子",
+          title: "プロダクトマネージャー",
+          image: "/avatars/user2.jpg",
+        },
+        {
+          content: "シンプルなインターフェース、強力な機能、私たちのチームに最適です。",
+          author: "鈴木一郎",
+          title: "技術部長",
+          image: "/avatars/user3.jpg",
+        },
+      ],
+    },
   },
   ko: {
     nav: {
@@ -239,6 +386,55 @@ export const translations: TranslationDictionary = {
       zh: '中文',
       ja: '日本語',
       ko: '한국어',
+    },
+    features: {
+      title: '제품 특징',
+      subtitle: '우리의 독특한 기능과 장점을 살펴보세요',
+      items: [
+        {
+          title: 'AI 채팅',
+          description: '첨단 AI 기술을 활용하여 지능적이고 자연스러운 대화 경험을 제공하며, 더욱 원활한 상호작용을 가능하게 합니다.',
+          icon: '🤖',
+          image: '/features/ai-chat.jpg',
+        },
+        {
+          title: '실시간 멀티플레이어',
+          description: '여러 사용자가 동시에 온라인으로 상호작용할 수 있어 원격 협업이 더욱 간단하고 효율적으로 이루어집니다.',
+          icon: '👥',
+          image: '/features/multiplayer.jpg',
+        },
+        {
+          title: '데이터 분석',
+          description: '강력한 데이터 분석 기능으로 사용자 행동을 깊이 이해하고 더 현명한 의사결정을 내릴 수 있습니다.',
+          icon: '📊',
+          image: '/features/analytics.jpg',
+        },
+      ],
+      learnMore: '자세히 보기',
+    },
+    testimonials: {
+      title: "사용자 리뷰",
+      subtitle: "사용자들의 이야기를 들어보세요",
+      items: [
+        {
+          content: "이 제품은 정말로 제 업무 방식을 바꾸어 놓았습니다. 강력 추천합니다!",
+          author: "김철수",
+          title: "회사 CEO",
+          image: "/avatars/user1.jpg",
+        },
+        {
+          content: "사용자 경험이 매우 좋고, 팀의 효율성이 크게 향상되었습니다.",
+          author: "이영희",
+          title: "제품 관리자",
+          image: "/avatars/user2.jpg",
+        },
+        {
+          content: "깔끔한 인터페이스, 강력한 기능, 우리 팀에 딱 맞습니다.",
+          author: "박지성",
+          title: "기술 이사",
+          image: "/avatars/user3.jpg",
+        },
+      ],
     },
   },
 } as const

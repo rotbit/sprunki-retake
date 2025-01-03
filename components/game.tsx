@@ -66,7 +66,6 @@ export function Game() {
               <iframe
                 src="https://www.twoplayergames.org/embed/sprunki-retake"
                 className="w-full h-[600px]"
-                frameBorder="0"
                 allowFullScreen
                 title="Sprunki Retake"
               />

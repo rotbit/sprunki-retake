@@ -11,6 +11,33 @@ export interface FAQItem {
   answer: string
 }
 
+export interface FeatureItem {
+  title: string
+  description: string
+  icon: string
+  image: string
+}
+
+export interface Features {
+  title: string
+  subtitle: string
+  items: FeatureItem[]
+  learnMore: string
+}
+
+export interface TestimonialItem {
+  content: string
+  author: string
+  title: string
+  image: string
+}
+
+export interface Testimonials {
+  title: string
+  subtitle: string
+  items: TestimonialItem[]
+}
+
 export interface Translations {
   nav: {
     blog: string
@@ -23,6 +50,7 @@ export interface Translations {
     subtitle: string
     playNow: string
   }
+  features: Features
   game: {
     fullscreen: string
     exitFullscreen: string
@@ -43,6 +71,7 @@ export interface Translations {
     ja: string
     ko: string
   }
+  testimonials: Testimonials
 }
 
 export type TranslationDictionary = Record<Language, Translations>
