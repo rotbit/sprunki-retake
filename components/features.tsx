@@ -1,6 +1,7 @@
 "use client";
 
 import { useLanguage } from "@/lib/i18n/language-context";
+import { FeatureItem } from "@/lib/i18n/types";
 import Image from "next/image";
 
 export function Features() {
