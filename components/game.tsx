@@ -11,14 +11,14 @@ export function GameGuide() {
     <div className="w-full bg-white/80 rounded-lg p-6">
       <div className="flex items-center gap-2 mb-4">
         <BookOpen className="h-5 w-5" />
-        <h1 className="text-lg font-medium text-gray-800">
+        <h2 className="text-lg font-medium text-gray-800">
           Retake Sprunki Game Guide
-        </h1>
+        </h2>
       </div>
       <ul className="space-y-3 list-disc list-inside text-gray-700">
         {guideItems.map((item: string, index: number) => (
           <li key={index} className="leading-relaxed">
-            <h2>{item}</h2>
+            <h3>{item}</h3>
           </li>
         ))}
       </ul>
