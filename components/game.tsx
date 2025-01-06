@@ -93,9 +93,9 @@ export function Game() {
 
           <div className="w-full max-w-[900px] space-y-6 mt-8">
             <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-sm">
-              <h1 className="text-2xl font-semibold text-gray-800 mb-2">
+              <h2 className="text-2xl font-semibold text-gray-800 mb-2">
                 {t("game.content.title")}
-              </h1>
+              </h2>
               <h2 className="text-xl text-gray-800 mb-4">
                 {t("game.content.description")}
               </h2>
