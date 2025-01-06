@@ -1,6 +1,7 @@
 "use client";
 
 import { useLanguage } from "@/lib/i18n/language-context";
+import Image from "next/image";
 
 export function Features() {
   const { t } = useLanguage();
@@ -31,10 +32,12 @@ export function Features() {
                   {/* 图片部分 */}
                   <div className="w-full md:w-1/2">
                     <div className="relative aspect-[4/3]">
-                      <img
+                      <Image
                         src={feature.image}
                         alt={feature.title}
-                        className="object-cover w-full h-full hover:scale-105 transition-transform duration-300"
+                        fill
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        className="object-cover hover:scale-105 transition-transform duration-300"
                       />
                     </div>
                   </div>

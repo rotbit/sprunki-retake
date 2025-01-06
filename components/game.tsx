@@ -64,7 +64,7 @@ export function Game() {
           <div ref={gameContainerRef} className="game-container">
             <div className="game-content">
               <iframe
-                src="https://www.twoplayergames.org/embed/sprunki-retake"
+                src="https://www.gameflare.com/embed/sprunki-retake/"
                 className="w-full h-[600px]"
                 allowFullScreen
                 title="Sprunki Retake"
