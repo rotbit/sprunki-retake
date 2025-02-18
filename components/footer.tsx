@@ -40,6 +40,14 @@ export function Footer() {
               >
                 {t("nav.externalLinkText")}
               </Link>
+              <Link
+                href="https://sprunky.world"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-gray-600 hover:text-primary transition-colors hover:underline underline-offset-2"
+              >
+                sprunky.world
+              </Link>
             </div>
           </div>
         </div>
